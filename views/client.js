@@ -7,7 +7,7 @@ function refresh(){
             for (let i = 0; i < reports.length; i++){
                 result += `<div class=reportFormat>`
                 result += `<h3>${reports[i].type} <br>`
-                result += `<label>Location of Sighting: ${reports[i].sightingLocation} <br>`
+                result += `<label>Location of Sighting: ${reports[i].location} <br>`
                 result += `<label> Report submitted by: ${reports[i].name}<br>`
                 result += `</div>`
             }
