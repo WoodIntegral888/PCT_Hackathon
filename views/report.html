@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marine Conservation Tracker- Report</title>
     <link href="style.css" rel="stylesheet" type="text/css"/>
-    <script type="text/javascript" src="client.js"></script>
 </head>
 <body>
     <!-- Navigation Bar (top) -->
@@ -17,31 +16,23 @@
             <a id="nav_links" href="index.html">Home</a>
         </nav>
     </header>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    name <input type="text" id="name"> 
-    <br>
-    email <input type="text" id="email"> 
-    <br>
-    location of sighting <input type="text" id="sightingLocation">
-    <br>
-    <select id="type">
-        <option value="Marine Pollution"> Marine Pollution </option>
-        <option value="Illegal Fishing Activities"> Illegal Fishing Activities </option>
-        <option value="Endanger Species Sighting"> Endanger Species Sighting </option>
-    </select>
+    <div id="report_form">
+        name <input type="text" id="name"> 
+        <br>
+        email <input type="text" id="email"> 
+        <br>
+        location of sighting <input type="text" id="sightingLocation">
+        <br>
+        <select id="type">
+            <option value="Marine Pollution"> Marine Pollution </option>
+            <option value="Illegal Fishing Activities"> Illegal Fishing Activities </option>
+            <option value="Endanger Species Sighting"> Endanger Species Sighting </option>
+        </select>
 
 
-    <br>
-    <button onclick="postReport()"> Submit Report </button>
+        <br>
+        <button onclick="postReport()"> Submit Report </button>
 
-
+    </div>
 </body>
 </html>
