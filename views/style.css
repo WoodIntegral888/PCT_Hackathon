@@ -1,0 +1,37 @@
+/* imports */
+@import url('https://fonts.cdnfonts.com/css/devin-chavez-font');
+
+body{
+    font-family: 'Devin Chavez Font', sans-serif;
+    background-color: azure;
+    color: rgb(5, 67, 102);
+}
+
+a{
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgb(3, 43, 66);
+    padding-right: 15px;
+}
+
+a:hover {
+    color:rgb(1, 52, 129);
+    font-size: larger;
+}
+
+#nav_bar {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(160, 214, 255, 0.8);
+    padding-top: 3.5%;
+    transition: 0.4s;
+}
+
+#title_txt {
+    padding-left: 5%;
+}
