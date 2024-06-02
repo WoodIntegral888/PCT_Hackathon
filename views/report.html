@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marine Conservation Tracker- Report</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../script/client.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar (top) -->
+    <header id="nav_bar">
+        <!-- Title text -->
+        <h1 id="title_txt">Report</h1>
+        <!-- Navigation/links to other pages -->
+        <nav>
+            <a id="nav_links" href="index.html">Home</a>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    name <input type="text" id="name"> 
+    <br>
+    email <input type="text" id="email"> 
+    <br>
+    location of sighting <input type="text" id="sightingLocation">
+    <br>
+    <select id="type">
+        <option value="Marine Pollution"> Marine Pollution </option>
+        <option value="Illegal Fishing Activities"> Illegal Fishing Activities </option>
+        <option value="Endanger Species Sighting"> Endanger Species Sighting </option>
+    </select>
+
+
+    <br>
+    <button onclick="postReport()"> Submit Report </button>
+
+    <br>
+    <br>
+    <label type="text" id="monitorBox"></label>
+    <button onclick="refresh()"> refresh </button>
+
+</body>
+</html>
